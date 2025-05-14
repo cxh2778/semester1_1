@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>导航栏</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <style>
+    /* 样式重置 */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* 导航栏整体样式 */
+    .navbar {
+      display: flex;
+      align-items: center; 
+      justify-content: center; /* 水平居中 */
+      background-color: #f5f5f7; 
+      height: 48px;
+    
+    }
+
+    /* 导航内容部分 */
+    .navbar ul {
+      display: flex;
+      align-items: center; 
+      list-style: none; 
+      gap: 20px; /* 每个菜单间距 */
+    }
+
+    /* 菜单项 */
+    .navbar ul li {
+      display: flex;
+      align-items: center; 
+    }
+
+    /* 链接样式 */
+    .navbar ul li a {
+      text-decoration: none;
+      color: #1d1d1f; 
+      font-size: 13px;
+      font-weight: 400; 
+      padding: 0 5px; 
+      font-family: 'PingFang SC', 'Helvetica Neue', Arial, sans-serif; /* 设置苹方字体 */
+    }
+
+    /* 图标样式 */
+    .navbar .icon {
+      font-size: 16px; 
+      display: flex;
+      align-items: center; 
+    }
+
+    /* 悬停效果 */
+    .navbar ul li a:hover {
+      color: #0071e3; 
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="https://www.apple.com.cn/" class="icon" target="_blank"><i class="fa-brands fa-apple"></i></a></li> <!-- 苹果图标 -->
+      <li><a href="https://www.apple.com.cn/store" target="_blank">商店</a></li>
+      <li><a href="https://www.apple.com.cn/mac/" target="_blank">Mac</a></li>
+      <li><a href="https://www.apple.com.cn/ipad/" target="_blank">iPad</a></li>
+      <li><a href="https://www.apple.com.cn/iphone/" target="_blank">iPhone</a></li>
+      <li><a href="https://www.apple.com.cn/watch/" target="_blank">Watch</a></li>
+      <li><a href="https://www.apple.com.cn/apple-vision-pro/" target="_blank">Vision</a></li>
+      <li><a href="https://www.apple.com.cn/airpods/" target="_blank">AirPods</a></li>
+      <li><a href="https://www.apple.com.cn/apple-home/" target="_blank">家居</a></li>
+      <li><a href="https://www.apple.com.cn/services/" target="_blank">娱乐</a></li>
+      <li><a href="https://www.apple.com.cn/shop/accessories/all" target="_blank">配件</a></li>
+      <li><a href="https://www.apple.com.cn/support/" target="_blank">技术支持</a></li>
+      <li><a href="https://www.apple.com.cn/search" class="icon" target="_blank"><i class="fa-solid fa-magnifying-glass"></i></a></li> <!-- 搜索图标 -->
+      <li><a href="https://www.apple.com.cn/shop/bag" class="icon" target="_blank"><i class="fa-solid fa-cart-shopping"></i></a></li> <!-- 购物车图标 -->
+    </ul>
+  </nav>
+</body>
+</html>

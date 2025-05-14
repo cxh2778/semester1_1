@@ -1,0 +1,366 @@
+body{
+    background-color: #f5f5f7;
+
+}
+.divbox1{
+    width: 70%;
+    height: 300px;
+    background-color: #f5f5f7;
+    margin: 0;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-right: auto;
+    padding-bottom: auto;
+    font-family: 'PingFang SC', 'Helvetica Neue', Arial, sans-serif; 
+    font-size: 23px;
+    float: left;
+    /* background: #4d7e67; */
+}
+.span1{
+    color: rgb(219, 51, 35);
+}
+.span2{
+    color: rgb(221, 221, 68);
+}
+.span3{
+    color: rgb(85, 202, 56);
+}
+.span4{
+    color: rgb(51, 155, 164);
+}
+.span5{
+    color: rgb(100, 113, 255);
+}
+.spg{
+    color: #7b7b7b;
+}
+.divbox2{
+    width: 15%;
+    height: 250px;
+    background-color: #f5f5f7;
+    margin-left: auto;
+    padding-left: 100px;
+    padding-top: 150px;
+    padding-right: auto;
+    padding-bottom: auto;
+    font-family: 'PingFang SC', 'Helvetica Neue', Arial, sans-serif; 
+    font-size: 23px;
+    float: right;
+  
+     /* background: #7c2d2d; */
+}
+  .divbox2 table a:hover {
+    color: #a7adff; 
+    font-size: 13px;
+    text-decoration: underline;
+  }
+  .divbox2 a{
+    text-decoration:none;
+    color: #0044ff;
+  }
+  .divbox2 table td{
+    font-size: 13px;
+    padding-left: 10px;
+    margin-left: 6px;
+  }
+  .divbox2 table{
+   
+   padding-right: 30px;
+  } 
+  .div3{
+    width: 100%;
+    height: 186px;
+    float: left;
+    color: #f5f5f7;
+    
+  }
+  .div3 img {
+    width: 100px;
+    height: auto;
+    margin-left: 30px;
+
+
+  }
+  
+
+ .tablex {
+    border-collapse:2 collapse; 
+    width: 100%;
+    text-align: center; /* 水平居中 */
+  }
+
+ 
+  .tdx {
+    border: 1px solid #ccc; 
+    padding: 20px; /* 单元格内边距 */
+    vertical-align: middle; 
+  }
+  .tablex a{
+    color: #151515;
+    text-decoration: none;
+  }
+  .tablex a:hover{
+    color: #151515;
+    text-decoration: underline;
+  }
+ 
+
+.card {
+      width: 600px; /* 卡片宽度 */
+      text-align: center;
+      border-radius: 40px; /* 圆角 */
+      overflow: hidden; /* 防止内容溢出 */
+      background-color: #fff;
+      transition: transform 0.3s ease, box-shadow 0.3s ease; /* 动画效果 */
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* 初始阴影 */
+      margin-left: 40px;
+      float: left;
+    }
+
+    .card:hover {
+      transform: scale(1.05); /* 悬停时放大 */
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* 悬停时阴影增强 */
+    }
+
+    .card img {
+      width: 100%; /* 图片宽度自适应 */
+      height: auto; /* 保持图片比例 */
+      display: block;
+      object-fit: cover;
+     
+    }
+
+    .card1 {
+        width: 600px; /* 卡片宽度 */
+        text-align: center;
+        border-radius: 40px; /* 圆角 */
+        overflow: hidden; /* 防止内容溢出 */
+        background-color: #fff;
+        transition: transform 0.3s ease, box-shadow 0.3s ease; /* 动画效果 */
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* 初始阴影 */
+        margin-right: 40px;
+        float: right;
+      }
+  
+      .card1:hover {
+        transform: scale(1.05); /* 悬停时放大 */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* 悬停时阴影增强 */
+      }
+  
+      .card1 img {
+        width: 100%; /* 图片宽度自适应 */
+        height: auto; /* 保持图片比例 */
+        display: block;
+        object-fit: cover;
+       
+      }
+    
+      .card3 {
+        width: 600px; /* 卡片宽度 */
+        text-align: center;
+        border-radius: 40px; /* 圆角 */
+        overflow: hidden; /* 防止内容溢出 */
+        background-color: #fff;
+        transition: transform 0.3s ease, box-shadow 0.3s ease; /* 动画效果 */
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* 初始阴影 */
+        margin-left: 40px;
+        float: left;
+        margin-top: 40px;
+      }
+  
+      .card3:hover {
+        transform: scale(1.05); /* 悬停时放大 */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* 悬停时阴影增强 */
+      }
+  
+      .card3 img {
+        width: 100%; /* 图片宽度自适应 */
+        height: auto; /* 保持图片比例 */
+        display: block;
+        object-fit: cover;
+       
+      }
+      .card4 {
+        width: 600px; /* 卡片宽度 */
+        text-align: center;
+        border-radius: 40px; /* 圆角 */
+        overflow: hidden; /* 防止内容溢出 */
+        background-color: #fff;
+        transition: transform 0.3s ease, box-shadow 0.3s ease; /* 动画效果 */
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* 初始阴影 */
+        margin-right: 40px;
+        float: right;
+        margin-top: 40px;
+      }
+  
+      .card4:hover {
+        transform: scale(1.05); /* 悬停时放大 */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* 悬停时阴影增强 */
+      }
+  
+      .card4 img {
+        width: 100%; /* 图片宽度自适应 */
+        height: auto; /* 保持图片比例 */
+        display: block;
+        object-fit: cover;
+       
+      }
+      .divbox3{
+        width: 100%;
+        height: 550px;
+        border-radius: 40px;
+        overflow: hidden;
+        transition: transform 0.3s ease, box-shadow 0.3s ease; /* 动画效果 */
+        background: #f5f5f7;
+      
+        overflow-x:auto ;
+
+      }
+      .divbox3-list{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        white-space: nowrap;
+      }
+      .divbox3-list li{
+        display: inline-block;
+        margin-right: 10px;
+        width: 400px;
+        height: 505px;
+        border-radius: 43px; 
+        /* background-color: rgb(0, 116, 218); */
+        overflow:auto;
+        object-fit: contain;
+        margin-left: 40px;
+        margin-top: 60px;
+       
+      }
+      .divbox3-list li img{
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+      }
+      .textul{
+        list-style-type: none;
+        padding-top: 1050px;
+        margin: 0;
+
+      }
+      .textul li{
+        display: inline-block;
+        /* margin-right: 10px; */
+        padding-left: 40px;
+        /* padding-top: 30px; */
+      }
+      .textul li button{
+        height: 50px;
+        border: 1px solid #000;
+        background-color: transparent;
+        padding: 10px 30px;
+        border-radius: 40px;
+
+      }
+      .textul li button:hover{
+        background-color: #000;
+        color: #fff;
+        a{
+          text-decoration: underline;
+          color: #fff;
+        }
+       
+      }
+      .textul li button a{
+   text-decoration:none ;
+   color:#000000
+      }
+      
+     
+
+      .textul1{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+      .textul1 li{
+       font-size: 12px;
+       a{color: #7b7b7b;
+        text-decoration: none;}
+        a:hover{
+          color: #7b7b7b;
+          text-decoration: underline;
+        }
+        margin-left: 20px;
+        padding-left: 20px;
+        padding-top: 18px;
+        display: inline-block;
+      }
+      .textul1 li button{
+        height: 50px;
+        border: 1px solid #000;
+        background-color: transparent;
+        padding: 10px 30px;
+        border-radius: 40px;
+
+      }
+      .textul1 li button:hover{
+        background-color: #000;
+        color: #fff;
+        a{
+          text-decoration: underline;
+          color: #fff;
+        }
+       
+      }
+      .textul1 li button a{
+   text-decoration:none ;
+   color:#000000
+      }
+
+
+
+      .textul2{
+        list-style-type: none;
+        padding: 0;
+        margin: 40px;
+      }
+      .textul2 li{
+       font-size: 12px;
+       a{color: #7b7b7b;
+        text-decoration: none;}
+        a:hover{
+          color: #7b7b7b;
+          text-decoration: underline;
+        }
+        margin-left: 20px;
+        padding-left: 200px;
+        padding-top: 18px;
+        
+      }
+      .textul2 li button{
+        height: 50px;
+        border: 1px solid #000;
+        background-color: transparent;
+        padding: 10px 30px;
+        border-radius: 40px;
+
+      }
+      .textul2 li button:hover{
+        background-color: #000;
+        color: #fff;
+        a{
+          text-decoration: underline;
+          color: #fff;
+        }
+       
+      }
+      .textul1 li button a{
+   text-decoration:none ;
+   color:#000000
+      }
+
+     
+
+        
+      
+      
+        
